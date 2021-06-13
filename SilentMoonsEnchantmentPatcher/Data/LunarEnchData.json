@@ -94,8 +94,8 @@
       },
       {
         "id": 3,
-        "prefix": "lunaire éveillé",
-        "suffix": "",
+        "prefix": "",
+        "suffix": "lunaire éveillé",
         "levelMod": {
           "1": 6,
           "2": 3,
