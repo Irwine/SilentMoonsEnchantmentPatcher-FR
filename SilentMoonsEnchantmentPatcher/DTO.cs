@@ -74,8 +74,10 @@ namespace SilentMoonsEnchantmentPatcher
 
         public string NewName(IWeaponGetter record)
         {
-            string i18nPrefix = Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(Tier.Prefix.GetValueOrDefault("")));
-            string i18nSuffix = Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(Tier.Suffix.GetValueOrDefault("")));
+            string prefix = Tier.Prefix ?? "";
+            string suffix = Tier.Suffix ?? "";
+            string i18nPrefix = Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(prefix));
+            string i18nSuffix = Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(suffix));
             return $"{i18nPrefix} {record.Name} {i18nSuffix}".Trim();
         }
     }
