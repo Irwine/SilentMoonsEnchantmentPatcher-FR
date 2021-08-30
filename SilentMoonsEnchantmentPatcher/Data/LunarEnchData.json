@@ -1,4 +1,4 @@
-﻿{
+{
   "LunarDamage": {
     "BasePts": 300,
     "LevelPts": 200,
@@ -7,7 +7,7 @@
       {
         "id": 1,
         "prefix": "",
-        "suffix": "of Moonbeams",
+        "suffix": "des rayons de lune",
         "levelMod": {
           "0": 3,
           "1": 1,
@@ -16,8 +16,8 @@
       },
       {
         "id": 2,
-        "prefix": "Lesser Lunar",
-        "suffix": "",
+        "prefix": "",
+        "suffix": "lunaire inférieure",
         "levelMod": {
           "1": 3,
           "2": 1,
@@ -26,8 +26,8 @@
       },
       {
         "id": 3,
-        "prefix": "Lunar",
-        "suffix": "",
+        "prefix": "",
+        "suffix": "lunaire",
         "levelMod": {
           "1": 6,
           "2": 3,
@@ -38,7 +38,7 @@
       {
         "id": 4,
         "prefix": "",
-        "suffix": "of Secunda",
+        "suffix": "de Secunda",
         "levelMod": {
           "2": 6,
           "3": 3,
@@ -49,7 +49,7 @@
       {
         "id": 5,
         "prefix": "",
-        "suffix": "of Masser",
+        "suffix": "de Masser",
         "levelMod": {
           "3": 6,
           "4": 3,
@@ -59,7 +59,7 @@
       {
         "id": 6,
         "prefix": "",
-        "suffix": "of the Eclipse",
+        "suffix": "de l'éclipse",
         "levelMod": {
           "4": 6,
           "5": 3
@@ -74,8 +74,8 @@
     "tiers": [
       {
         "id": 1,
-        "prefix": "Awakened",
-        "suffix": "of Moonbeams",
+        "prefix": "",
+        "suffix": "éveillé des rayons de lune",
         "levelMod": {
           "0": 3,
           "1": 1,
@@ -84,8 +84,8 @@
       },
       {
         "id": 2,
-        "prefix": "Awakened Lesser Lunar",
-        "suffix": "",
+        "prefix": "",
+        "suffix": "éveillé inférieur",
         "levelMod": {
           "1": 3,
           "2": 1,
@@ -94,8 +94,8 @@
       },
       {
         "id": 3,
-        "prefix": "Awakened Lunar",
-        "suffix": "",
+        "prefix": "",
+        "suffix": "lunaire éveillé",
         "levelMod": {
           "1": 6,
           "2": 3,
@@ -105,8 +105,8 @@
       },
       {
         "id": 4,
-        "prefix": "Awakened",
-        "suffix": "of Secunda",
+        "prefix": "",
+        "suffix": "éveillé de Secunda",
         "levelMod": {
           "2": 6,
           "3": 3,
@@ -116,8 +116,8 @@
       },
       {
         "id": 5,
-        "prefix": "Awakened",
-        "suffix": "of Masser",
+        "prefix": "",
+        "suffix": "éveillé de Masser",
         "levelMod": {
           "3": 6,
           "4": 3,
@@ -126,8 +126,8 @@
       },
       {
         "id": 6,
-        "prefix": "Awakened",
-        "suffix": "of the Eclipse",
+        "prefix": "",
+        "suffix": "éveillé de l'éclipse",
         "levelMod": {
           "4": 6,
           "5": 3
@@ -143,7 +143,7 @@
       {
         "id": 1,
         "prefix": "",
-        "suffix": "of Night's Hunger",
+        "suffix": "de la faim nocturne",
         "levelMod": {
           "0": 0,
           "1": 0,
@@ -152,8 +152,8 @@
       },
       {
         "id": 2,
-        "prefix": "Feeding",
-        "suffix": "of the Night",
+        "prefix": "",
+        "suffix": "de drain de la nuit",
         "levelMod": {
           "1": 0,
           "2": 1
@@ -161,8 +161,8 @@
       },
       {
         "id": 3,
-        "prefix": "Lunar",
-        "suffix": "of Absorbing",
+        "prefix": "",
+        "suffix": "lunaire d'absorption",
         "levelMod": {
           "1": 0,
           "2": 3,
@@ -172,8 +172,8 @@
       },
       {
         "id": 4,
-        "prefix": "Lunar",
-        "suffix": "of Consuming",
+        "prefix": "",
+        "suffix": "lunaire d'ingestion",
         "levelMod": {
           "2": 6,
           "3": 3,
@@ -182,8 +182,8 @@
       },
       {
         "id": 5,
-        "prefix": "Devouring",
-        "suffix": "of the Moons",
+        "prefix": "",
+        "suffix": "dévorante des lunes",
         "levelMod": {
           "3": 6,
           "4": 3,
@@ -192,8 +192,8 @@
       },
       {
         "id": 6,
-        "prefix": "Eclipsing",
-        "suffix": "of the Vampire",
+        "prefix": "",
+        "suffix": "éclipsante du vampire",
         "levelMod": {
           "4": 7,
           "5": 3
