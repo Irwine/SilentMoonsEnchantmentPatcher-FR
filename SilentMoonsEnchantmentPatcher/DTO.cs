@@ -1,4 +1,4 @@
-﻿// /*
+// /*
 //     Copyright (C) 2020  erri120
 // 
 //     This program is free software: you can redistribute it and/or modify
@@ -18,6 +18,7 @@
 using System.Collections.Generic;
 using Mutagen.Bethesda.Skyrim;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace SilentMoonsEnchantmentPatcher
 {
@@ -73,7 +74,9 @@ namespace SilentMoonsEnchantmentPatcher
 
         public string NewName(IWeaponGetter record)
         {
-            return $"{Tier.Prefix} {record.Name} {Tier.Suffix}".Trim();
+            string i18nPrefix = Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(Tier.Prefix));
+            string i18nSuffix = Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(Tier.Suffix));
+            return $"{i18nPrefix} {record.Name} {i18nSuffix}".Trim();
         }
     }
 
