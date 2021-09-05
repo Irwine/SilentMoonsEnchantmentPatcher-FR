@@ -5,5 +5,5 @@ Une convertion du patcher zEdit de [Serenity - A Silent Moons Camp Overhaul](htt
 ## Version à utiliser
 0.30.6 et 0.19.2
 
-#Crédits
+# Crédits
 Un très grand merci à Phlasriel qui a gentiment modifié le code pour qu'il fonctionne avec les particularités de la langue française.
